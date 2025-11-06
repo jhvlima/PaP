@@ -1,7 +1,9 @@
 a = int(input())
-b = int(input())
+#b = int(input())
 
-for i in range(a, b):
-    for j in range(2, i):
-        if i % j == 0:
-            print(i)
+#for i in range(a, b):
+for j in range(2, a):
+    if a % j == 0:
+        break
+    else: 
+        print(j)
